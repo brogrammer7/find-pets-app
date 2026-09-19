@@ -27,6 +27,9 @@ mlkitImageLabeling = "17.0.9"
 mlkitImageLabelingCustom = "17.0.3"
 mlkitObjectDetection = "17.0.2"
 hiltNavigationCompose = "1.4.0"
+mockk = "1.13.17"
+kotlinxCoroutinesTest = "1.10.1"
+turbine = "1.2.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -68,6 +71,10 @@ androidx-hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navig
 mlkit-image-labeling = { group = "com.google.mlkit", name = "image-labeling", version.ref = "mlkitImageLabeling" }
 mlkit-image-labeling-custom = { group = "com.google.mlkit", name = "image-labeling-custom", version.ref = "mlkitImageLabelingCustom" }
 mlkit-obj-detection = { group = "com.google.mlkit", name = "object-detection", version.ref = "mlkitObjectDetection" }
+mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
+mockk-android = { module = "io.mockk:mockk-android", version.ref = "mockk" }
+kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "kotlinxCoroutinesTest" }
+turbine = { module = "app.cash.turbine:turbine", version.ref = "turbine" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
